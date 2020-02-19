@@ -1,0 +1,22 @@
+#j_key {
+    background-color: lightsteelblue
+}
+
+#j_shape {
+    background-color: gold;
+}
+
+#main {
+    margin-top: 25px;
+}
+
+#mynavbar {
+    font-size: 1.33em;
+    color: red;
+}
+
+.accidental {
+    font-style: italic;
+    font-weight: bold;
+    font-size: .50em;
+}
