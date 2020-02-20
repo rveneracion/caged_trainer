@@ -21,7 +21,7 @@ var randomChoice = function(mylist){
 
 var newKey = function(){
     let keys = 'ABCDEF'.split('');
-    let sharpflat = ['<sup class="accidental">#</sup>','<sup class="accidental">b</sup>','',''];
+    let sharpflat = ['<sup class="accidental">&#x266f</sup>','<sup class="accidental">&#x266d</sup>','',''];
     $("#h_key").html(randomChoice(keys) + randomChoice(sharpflat));
     // $("#h_key").text('woohoo');
 }
