@@ -10,6 +10,10 @@
     margin-top: 25px;
 }
 
+#b_tryagain {
+    margin-top: 25px;
+}
+
 #mynavbar {
     font-size: 1.33em;
     color: red;
@@ -17,4 +21,23 @@
 
 .accidental {
     font-size: .75em;
+}
+
+#c_song {
+    background-color: darkgreen;
+    color: white;
+}
+
+#h_song {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.glow {
+    font-size: 70px;
+    color: #ffffff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
 }

@@ -12,6 +12,7 @@ $(document).ready(function(){
 var newCombo = function(){
     newKey();
     newShape();
+    newSong();
 }
 
 var randomChoice = function(mylist){
@@ -29,4 +30,32 @@ var newKey = function(){
 var newShape = function(){
     let shapes = 'CAGED'.split('');
     $("#h_shape").html(randomChoice(shapes));
+}
+
+var newSong = function(){
+    let songs = [
+        "Aura Lee",
+        "Billy Boy",
+        "Clementine",
+        "Down in the Valley",
+        "Happy Birthday",
+        "He's Got the Whole World in His Hands",
+        "Home On the Range",
+        "I've Been Working on the Railroad",
+        "Mary Had A Little Lamb",
+        "Michael, Row the Boat",
+        "Ode To Joy",
+        "Oh! Susanna",
+        "On Top of Old Smokey",
+        "Red River Valley",
+        "She'll be Coming 'Round the Mountain",
+        "Swing Low, Sweet Chariot",
+        "This Land Is Your Land",
+        "Twinkle Twinkle Little Star",
+        "Yankee Doodle",
+        "You Are My Sunshine"
+    ]
+
+    $("#h_song").html(randomChoice(songs));
+
 }
